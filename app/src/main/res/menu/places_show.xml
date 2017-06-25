@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ifRoom te pone la opción directamente en la barra, siempre que tengas sitio-->
+    <item android:id="@+id/edit_place" android:icon="@drawable/ic_edit_white_36dp" android:title="@string/edit_place" android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/delete_place" android:icon="@drawable/ic_delete_forever_white_36dp" android:title="@string/remove_place" android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/mnu_share" android:title="Share" android:icon="@drawable/ic_share_white_24dp" android:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+</menu>

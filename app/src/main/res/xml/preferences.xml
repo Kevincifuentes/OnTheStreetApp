@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_profile">
+        <EditTextPreference android:key="username" android:title="@string/username" android:summary="Enter your name" android:defaultValue="Anonimous"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_location">
+        <EditTextPreference
+            android:defaultValue="100"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            android:inputType="number"
+            android:title="@string/settings_radius"
+            android:summary="100"
+            android:key="radiusPlace" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="@string/settings_current_pos"
+            android:key="addCurrent"
+            android:switchTextOn="Yes"
+            android:switchTextOff="No"
+            android:summaryOn="@string/settings_on_current_pos"
+            android:summaryOff="@string/settings_off_current_pos"
+            android:summary="@string/settings_summary_current_pos" />
+        <SwitchPreference
+            android:id="@+id/switch_service"
+            android:defaultValue="false"
+            android:title="@string/settings_location_service"
+            android:key="locationService"
+            android:switchTextOn="Yes"
+            android:switchTextOff="No"
+            android:summaryOn="@string/settings_on_location_service"
+            android:summaryOff="@string/settings_off_location_service"
+            android:summary="@string/settings_summary_current_pos" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_widget">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/colores"
+            android:entryValues="@array/colores"
+            android:key="widget_preference"
+            android:summary="@array/colores"
+            android:title="@string/widget_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

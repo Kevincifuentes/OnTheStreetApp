@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ifRoom te pone la opción directamente en la barra, siempre que tengas sitio-->
+    <item android:id="@+id/add_contact" android:icon="@drawable/ic_person_add_white_24dp" android:title="@string/add_place" android:showAsAction="ifRoom|withText"/>
+</menu>

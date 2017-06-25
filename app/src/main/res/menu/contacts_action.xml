@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mnu_contacts_delete" android:title="@string/delete_main" android:icon="@drawable/ic_delete_forever_white_36dp"/>
+</menu>

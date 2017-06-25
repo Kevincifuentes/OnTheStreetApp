@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ifRoom te pone la opción directamente en la barra, siempre que tengas sitio-->
+    <item android:id="@+id/menu_settings" android:icon="@drawable/ic_settings_white_24dp" android:title="@string/settings" android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/add_place" android:icon="@drawable/ic_add_location_white_36dp" android:title="@string/add_place" android:showAsAction="ifRoom|withText"/>
+</menu>
